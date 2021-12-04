@@ -3,7 +3,6 @@ def solution(N):
     max_count = 0
     current_count = 0
     for char in binary:
-        print(max_count, current_count)
         if char == '0':
             current_count = current_count + 1
         else:
